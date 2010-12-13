@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PartialLayoutDemo</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<h1>My Website</h1>
+
+<%= render 'layouts/sidebar', :users => @users %>
+
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+h1 {
+  background: yellow;
+}
+
+#home {
+  float: left;
+  background: blue;
+}
+
+#sidebar {
+  float:left;
+  background: red;
+}
